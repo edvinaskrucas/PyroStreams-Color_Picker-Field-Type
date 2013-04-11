@@ -113,7 +113,7 @@ class Field_Color_picker {
     
     public function pre_output($input, $data)
     {
-        return $input.'<span style="margin-left:5px;padding:0 6px;background-color:'.$input.'">&nbsp;</span>';
+        return '<span style="margin-right:5px;padding:0 6px;background-color:'.$input.'">&nbsp;</span>'.$input;
     }
     
     public function pre_output_plugin($input, $params, $row_slug)
